@@ -1,0 +1,5 @@
+python3.8
+bs4
+geopy
+folium
+flask

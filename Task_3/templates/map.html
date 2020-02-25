@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+<script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.js"></script>
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/leaflet@1.5.1/dist/leaflet.css" rel="stylesheet"/>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" rel="stylesheet"/>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" rel="stylesheet"/>
+<link href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" rel="stylesheet"/>
+<style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+<style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+<meta content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
+<style>
+                #map_cbe14803b0534d968ff747f0a4787860 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+<button class="btn btn-lg btn-block" onClick="window.location='/'" style="background-color: azure;                           font-size: 20px;                           font-weight: bold;                           border-color: aqua;                           border-width: 3px;                           color: #bd59d4;                           border-radius: 10px" type="button">Let's find somebody else!</button></head>
+<body>
+<div class="folium-map" id="map_cbe14803b0534d968ff747f0a4787860"></div>
+</body>
+<script>    
+    
+            var map_cbe14803b0534d968ff747f0a4787860 = L.map(
+                "map_cbe14803b0534d968ff747f0a4787860",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_8c801613460445c897f3937b7922337c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_cbe14803b0534d968ff747f0a4787860);
+        
+    
+            var feature_group_b5c20c9b7b024f459c023290959ee536 = L.featureGroup(
+                {}
+            ).addTo(map_cbe14803b0534d968ff747f0a4787860);
+        
+    
+            var marker_b0fadd68446149fc92c86f1d4d63ac12 = L.marker(
+                [44.81949043504156, 20.464972268882946],
+                {}
+            ).addTo(feature_group_b5c20c9b7b024f459c023290959ee536);
+        
+    
+        var custom_icon_0d223ce26e2940baba4fdfcdf94bf6c6 = L.icon({"iconSize": [50, 50], "iconUrl": "http://pbs.twimg.com/profile_images/852510889429303298/c8Zu7gli_normal.jpg"});
+        marker_b0fadd68446149fc92c86f1d4d63ac12.setIcon(custom_icon_0d223ce26e2940baba4fdfcdf94bf6c6);
+        
+    
+        var popup_26425ca29b214417b67678e26c89e683 = L.popup({"maxWidth": 200});
+
+        
+            var html_17dc24fa88904fafbce6c56f6b05bfdd = $(`<div id="html_17dc24fa88904fafbce6c56f6b05bfdd" style="width: 100.0%; height: 100.0%;">Александар Вучић</div>`)[0];
+            popup_26425ca29b214417b67678e26c89e683.setContent(html_17dc24fa88904fafbce6c56f6b05bfdd);
+        
+
+        marker_b0fadd68446149fc92c86f1d4d63ac12.bindPopup(popup_26425ca29b214417b67678e26c89e683)
+        ;
+
+        
+    
+    
+            var marker_070b2d7cb9aa4ed795c71271dbfec72a = L.marker(
+                [52.25383705105821, 21.00551640132109],
+                {}
+            ).addTo(feature_group_b5c20c9b7b024f459c023290959ee536);
+        
+    
+        var custom_icon_89805f17239a4aec89d979debbf8d919 = L.icon({"iconSize": [50, 50], "iconUrl": "http://pbs.twimg.com/profile_images/556495456805453826/wKEOCDN0_normal.png"});
+        marker_070b2d7cb9aa4ed795c71271dbfec72a.setIcon(custom_icon_89805f17239a4aec89d979debbf8d919);
+        
+    
+        var popup_9751f2ee5d6540d59a844744f1a87e64 = L.popup({"maxWidth": 200});
+
+        
+            var html_551cd4dd793042e3b0b7ace0c087a17d = $(`<div id="html_551cd4dd793042e3b0b7ace0c087a17d" style="width: 100.0%; height: 100.0%;">Andrzej Duda</div>`)[0];
+            popup_9751f2ee5d6540d59a844744f1a87e64.setContent(html_551cd4dd793042e3b0b7ace0c087a17d);
+        
+
+        marker_070b2d7cb9aa4ed795c71271dbfec72a.bindPopup(popup_9751f2ee5d6540d59a844744f1a87e64)
+        ;
+
+        
+    
+    
+            var marker_b31f7cbdada0455f86c158e589fea8ee = L.marker(
+                [48.207297379681506, 16.367097876055823],
+                {}
+            ).addTo(feature_group_b5c20c9b7b024f459c023290959ee536);
+        
+    
+        var custom_icon_ba0e69a1e0c748e88fca17df3fd52718 = L.icon({"iconSize": [50, 50], "iconUrl": "http://pbs.twimg.com/profile_images/824015313863921664/Nb1P0KUH_normal.jpg"});
+        marker_b31f7cbdada0455f86c158e589fea8ee.setIcon(custom_icon_ba0e69a1e0c748e88fca17df3fd52718);
+        
+    
+        var popup_7eee09d34b464a03a875df586329491f = L.popup({"maxWidth": 200});
+
+        
+            var html_3b6614813735476191ae74ba484a0316 = $(`<div id="html_3b6614813735476191ae74ba484a0316" style="width: 100.0%; height: 100.0%;">Sebastian Kurz</div>`)[0];
+            popup_7eee09d34b464a03a875df586329491f.setContent(html_3b6614813735476191ae74ba484a0316);
+        
+
+        marker_b31f7cbdada0455f86c158e589fea8ee.bindPopup(popup_7eee09d34b464a03a875df586329491f)
+        ;
+
+        
+    
+    
+            var marker_ac1749d011e34f1ab0fc29f874febf0c = L.marker(
+                [49.48504449070077, 31.26377693634752],
+                {}
+            ).addTo(feature_group_b5c20c9b7b024f459c023290959ee536);
+        
+    
+        var custom_icon_05a45d30008f467683b9b17e2690baed = L.icon({"iconSize": [50, 50], "iconUrl": "http://pbs.twimg.com/profile_images/933349567831199745/Wwz7ivG9_normal.jpg"});
+        marker_ac1749d011e34f1ab0fc29f874febf0c.setIcon(custom_icon_05a45d30008f467683b9b17e2690baed);
+        
+    
+        var popup_ccd2c3b7cfca43029914389e683d26ef = L.popup({"maxWidth": 200});
+
+        
+            var html_2734f7bf1fca4965ae6d33f70e028116 = $(`<div id="html_2734f7bf1fca4965ae6d33f70e028116" style="width: 100.0%; height: 100.0%;">Crimea / Крим</div>`)[0];
+            popup_ccd2c3b7cfca43029914389e683d26ef.setContent(html_2734f7bf1fca4965ae6d33f70e028116);
+        
+
+        marker_ac1749d011e34f1ab0fc29f874febf0c.bindPopup(popup_ccd2c3b7cfca43029914389e683d26ef)
+        ;
+
+        
+    
+    
+            var marker_76f291c117274f389f03ff576c1747c2 = L.marker(
+                [40.712251945429486, -74.00783090454047],
+                {}
+            ).addTo(feature_group_b5c20c9b7b024f459c023290959ee536);
+        
+    
+        var custom_icon_7ba7caecf81343c88ff9a9b6884e3746 = L.icon({"iconSize": [50, 50], "iconUrl": "http://pbs.twimg.com/profile_images/1080180686777171978/N2dh2GAe_normal.jpg"});
+        marker_76f291c117274f389f03ff576c1747c2.setIcon(custom_icon_7ba7caecf81343c88ff9a9b6884e3746);
+        
+    
+        var popup_c49bd7d2ac534534b705505ffadeb988 = L.popup({"maxWidth": 200});
+
+        
+            var html_c53aa6df3a76488782a1e7f3875420db = $(`<div id="html_c53aa6df3a76488782a1e7f3875420db" style="width: 100.0%; height: 100.0%;">Archive: Ambassador Nikki Haley</div>`)[0];
+            popup_c49bd7d2ac534534b705505ffadeb988.setContent(html_c53aa6df3a76488782a1e7f3875420db);
+        
+
+        marker_76f291c117274f389f03ff576c1747c2.bindPopup(popup_c49bd7d2ac534534b705505ffadeb988)
+        ;
+
+        
+    
+    
+            var marker_90419268f5e14ca69cda49fb56c0548b = L.marker(
+                [46.59890408327502, 1.8795621159052063],
+                {}
+            ).addTo(feature_group_b5c20c9b7b024f459c023290959ee536);
+        
+    
+        var custom_icon_282d8412edee4e02bc10614b569fd56d = L.icon({"iconSize": [50, 50], "iconUrl": "http://pbs.twimg.com/profile_images/1153698365839945729/sXH9CRje_normal.jpg"});
+        marker_90419268f5e14ca69cda49fb56c0548b.setIcon(custom_icon_282d8412edee4e02bc10614b569fd56d);
+        
+    
+        var popup_bcc736a977fa4507917e3778ced06df0 = L.popup({"maxWidth": 200});
+
+        
+            var html_4f75c5073008417dbb87f7784e12f779 = $(`<div id="html_4f75c5073008417dbb87f7784e12f779" style="width: 100.0%; height: 100.0%;">Emmanuel Macron</div>`)[0];
+            popup_bcc736a977fa4507917e3778ced06df0.setContent(html_4f75c5073008417dbb87f7784e12f779);
+        
+
+        marker_90419268f5e14ca69cda49fb56c0548b.bindPopup(popup_bcc736a977fa4507917e3778ced06df0)
+        ;
+
+        
+    
+    
+            var marker_7f623f2a7f7f42fc9334f00f3402abc8 = L.marker(
+                [38.889289386571974, -77.04210877105488],
+                {}
+            ).addTo(feature_group_b5c20c9b7b024f459c023290959ee536);
+        
+    
+        var custom_icon_722023c1cc584ed3b7a60ac3e90f184e = L.icon({"iconSize": [50, 50], "iconUrl": "http://pbs.twimg.com/profile_images/874276197357596672/kUuht00m_normal.jpg"});
+        marker_7f623f2a7f7f42fc9334f00f3402abc8.setIcon(custom_icon_722023c1cc584ed3b7a60ac3e90f184e);
+        
+    
+        var popup_f11eb3abb94547139c32c67c234b079e = L.popup({"maxWidth": 200});
+
+        
+            var html_d2e85d6ca1cf421386784dad6fcc73c9 = $(`<div id="html_d2e85d6ca1cf421386784dad6fcc73c9" style="width: 100.0%; height: 100.0%;">Donald J. Trump</div>`)[0];
+            popup_f11eb3abb94547139c32c67c234b079e.setContent(html_d2e85d6ca1cf421386784dad6fcc73c9);
+        
+
+        marker_7f623f2a7f7f42fc9334f00f3402abc8.bindPopup(popup_f11eb3abb94547139c32c67c234b079e)
+        ;
+
+        
+    
+    
+            var marker_b6ae6d88bfc74694809b872df6c4e6df = L.marker(
+                [50.99678753321622, 9.993327965202363],
+                {}
+            ).addTo(feature_group_b5c20c9b7b024f459c023290959ee536);
+        
+    
+        var custom_icon_f76a69780edd4afab0bf7ce3dc662fc2 = L.icon({"iconSize": [50, 50], "iconUrl": "http://pbs.twimg.com/profile_images/882148227906228224/Vjpsr0BS_normal.jpg"});
+        marker_b6ae6d88bfc74694809b872df6c4e6df.setIcon(custom_icon_f76a69780edd4afab0bf7ce3dc662fc2);
+        
+    
+        var popup_6ab590299c394ff1b0929ad9b3d8851e = L.popup({"maxWidth": 200});
+
+        
+            var html_006c3dae1db049838b4314487e5b9560 = $(`<div id="html_006c3dae1db049838b4314487e5b9560" style="width: 100.0%; height: 100.0%;">Jean-Claude Juncker</div>`)[0];
+            popup_6ab590299c394ff1b0929ad9b3d8851e.setContent(html_006c3dae1db049838b4314487e5b9560);
+        
+
+        marker_b6ae6d88bfc74694809b872df6c4e6df.bindPopup(popup_6ab590299c394ff1b0929ad9b3d8851e)
+        ;
+
+        
+    
+    
+            var marker_f3f586723b52477eaa13e188ac916497 = L.marker(
+                [52.507604670042625, 5.742055730780773],
+                {}
+            ).addTo(feature_group_b5c20c9b7b024f459c023290959ee536);
+        
+    
+        var custom_icon_598394a2db12471b80bd420ee77c8d5b = L.icon({"iconSize": [50, 50], "iconUrl": "http://pbs.twimg.com/profile_images/1163352047263125504/b4hlpEUO_normal.jpg"});
+        marker_f3f586723b52477eaa13e188ac916497.setIcon(custom_icon_598394a2db12471b80bd420ee77c8d5b);
+        
+    
+        var popup_f0e1825c71db4e528d7faec383979c6b = L.popup({"maxWidth": 200});
+
+        
+            var html_c8aba96b88c441b7a58f023376a7dc7c = $(`<div id="html_c8aba96b88c441b7a58f023376a7dc7c" style="width: 100.0%; height: 100.0%;">Mark Rutte</div>`)[0];
+            popup_f0e1825c71db4e528d7faec383979c6b.setContent(html_c8aba96b88c441b7a58f023376a7dc7c);
+        
+
+        marker_f3f586723b52477eaa13e188ac916497.bindPopup(popup_f0e1825c71db4e528d7faec383979c6b)
+        ;
+
+        
+    
+    
+            var marker_030b01dfe37940fdad6d65f682ce1097 = L.marker(
+                [50.44764833990034, 30.519919453934484],
+                {}
+            ).addTo(feature_group_b5c20c9b7b024f459c023290959ee536);
+        
+    
+        var custom_icon_9acc96dd3817449e8f31b3bd891c508b = L.icon({"iconSize": [50, 50], "iconUrl": "http://pbs.twimg.com/profile_images/742945920619286528/bh9eindR_normal.jpg"});
+        marker_030b01dfe37940fdad6d65f682ce1097.setIcon(custom_icon_9acc96dd3817449e8f31b3bd891c508b);
+        
+    
+        var popup_d61f1193e06c49afab4aec4d7e892e14 = L.popup({"maxWidth": 200});
+
+        
+            var html_552d2b5c7c9244c49297ff7f48316247 = $(`<div id="html_552d2b5c7c9244c49297ff7f48316247" style="width: 100.0%; height: 100.0%;">Wings of Phoenix</div>`)[0];
+            popup_d61f1193e06c49afab4aec4d7e892e14.setContent(html_552d2b5c7c9244c49297ff7f48316247);
+        
+
+        marker_030b01dfe37940fdad6d65f682ce1097.bindPopup(popup_d61f1193e06c49afab4aec4d7e892e14)
+        ;
+
+        
+    
+    
+            var marker_5875147e41004815b7e3a187f5d40ad0 = L.marker(
+                [50.45251337826042, 30.52829446536335],
+                {}
+            ).addTo(feature_group_b5c20c9b7b024f459c023290959ee536);
+        
+    
+        var custom_icon_46eaee7349b64a069a1e7683b4713eac = L.icon({"iconSize": [50, 50], "iconUrl": "http://pbs.twimg.com/profile_images/517608977929342976/oEPN0t2J_normal.jpeg"});
+        marker_5875147e41004815b7e3a187f5d40ad0.setIcon(custom_icon_46eaee7349b64a069a1e7683b4713eac);
+        
+    
+        var popup_43c2f7b6b06a4305b3f0274dbf0774db = L.popup({"maxWidth": 200});
+
+        
+            var html_b92b38e2f5c44904a14f46908ae35aca = $(`<div id="html_b92b38e2f5c44904a14f46908ae35aca" style="width: 100.0%; height: 100.0%;">Sviatoslav Vakarchuk</div>`)[0];
+            popup_43c2f7b6b06a4305b3f0274dbf0774db.setContent(html_b92b38e2f5c44904a14f46908ae35aca);
+        
+
+        marker_5875147e41004815b7e3a187f5d40ad0.bindPopup(popup_43c2f7b6b06a4305b3f0274dbf0774db)
+        ;
+
+        
+    
+    
+            var marker_7ff2846d695745deb1ce7c5d03e230c9 = L.marker(
+                [49.491259494787094, 31.268014543564586],
+                {}
+            ).addTo(feature_group_b5c20c9b7b024f459c023290959ee536);
+        
+    
+        var custom_icon_81a8ba1e672f4279a6a42bd79642cc36 = L.icon({"iconSize": [50, 50], "iconUrl": "http://pbs.twimg.com/profile_images/1011852346232631296/gw8Yp3dG_normal.jpg"});
+        marker_7ff2846d695745deb1ce7c5d03e230c9.setIcon(custom_icon_81a8ba1e672f4279a6a42bd79642cc36);
+        
+    
+        var popup_fd0e2f2ded7d46cdbd0d0ac2910d3367 = L.popup({"maxWidth": 200});
+
+        
+            var html_13330b710ddd45f690f08b1189f29164 = $(`<div id="html_13330b710ddd45f690f08b1189f29164" style="width: 100.0%; height: 100.0%;">Ukraine / Україна</div>`)[0];
+            popup_fd0e2f2ded7d46cdbd0d0ac2910d3367.setContent(html_13330b710ddd45f690f08b1189f29164);
+        
+
+        marker_7ff2846d695745deb1ce7c5d03e230c9.bindPopup(popup_fd0e2f2ded7d46cdbd0d0ac2910d3367)
+        ;
+
+        
+    
+    
+            var marker_28a4b4df39c94f33beadf4f31bc3d3d6 = L.marker(
+                [49.49182596186492, 31.266846789777567],
+                {}
+            ).addTo(feature_group_b5c20c9b7b024f459c023290959ee536);
+        
+    
+        var custom_icon_4a58ad6f904b4b4da9be24a12c7c7a94 = L.icon({"iconSize": [50, 50], "iconUrl": "http://pbs.twimg.com/profile_images/1082609315154923520/IVrAYLGj_normal.jpg"});
+        marker_28a4b4df39c94f33beadf4f31bc3d3d6.setIcon(custom_icon_4a58ad6f904b4b4da9be24a12c7c7a94);
+        
+    
+        var popup_addc04ab0e1040be8992ca0f55a184a7 = L.popup({"maxWidth": 200});
+
+        
+            var html_959beb5185a7444cbcb09f50d2882b69 = $(`<div id="html_959beb5185a7444cbcb09f50d2882b69" style="width: 100.0%; height: 100.0%;">Defence of Ukraine</div>`)[0];
+            popup_addc04ab0e1040be8992ca0f55a184a7.setContent(html_959beb5185a7444cbcb09f50d2882b69);
+        
+
+        marker_28a4b4df39c94f33beadf4f31bc3d3d6.bindPopup(popup_addc04ab0e1040be8992ca0f55a184a7)
+        ;
+
+        
+    
+    
+            var marker_c798d389ec18446d8f4468cbeb792ded = L.marker(
+                [49.49572028649328, 31.268945136662122],
+                {}
+            ).addTo(feature_group_b5c20c9b7b024f459c023290959ee536);
+        
+    
+        var custom_icon_03a100489de842acba4d0acf701f158c = L.icon({"iconSize": [50, 50], "iconUrl": "http://pbs.twimg.com/profile_images/1173945237967921154/Q8Bmzzc4_normal.jpg"});
+        marker_c798d389ec18446d8f4468cbeb792ded.setIcon(custom_icon_03a100489de842acba4d0acf701f158c);
+        
+    
+        var popup_d0c538728f384f8d9e429818709b12c0 = L.popup({"maxWidth": 200});
+
+        
+            var html_3b695a63fe6847b99140f6f08f673d2c = $(`<div id="html_3b695a63fe6847b99140f6f08f673d2c" style="width: 100.0%; height: 100.0%;">Volodymyr Groysman</div>`)[0];
+            popup_d0c538728f384f8d9e429818709b12c0.setContent(html_3b695a63fe6847b99140f6f08f673d2c);
+        
+
+        marker_c798d389ec18446d8f4468cbeb792ded.bindPopup(popup_d0c538728f384f8d9e429818709b12c0)
+        ;
+
+        
+    
+    
+            var layer_control_d485bdc58afa4473a4b4d938bb0e2fb0 = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_8c801613460445c897f3937b7922337c,
+                },
+                overlays :  {
+                    "Gang" : feature_group_b5c20c9b7b024f459c023290959ee536,
+                },
+            };
+            L.control.layers(
+                layer_control_d485bdc58afa4473a4b4d938bb0e2fb0.base_layers,
+                layer_control_d485bdc58afa4473a4b4d938bb0e2fb0.overlays,
+                {"autoZIndex": true, "collapsed": true, "position": "topright"}
+            ).addTo(map_cbe14803b0534d968ff747f0a4787860);
+        
+</script>
