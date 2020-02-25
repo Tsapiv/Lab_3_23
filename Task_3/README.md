@@ -19,6 +19,10 @@ So that everything worked correctly in a form field enter the name (or better sc
 to find somebody else, just click on the button `Let's find somebody else!`<br>
 Or you may want to run this program locally. To do this you must run `app.py`. This project uses libs such as `folium` to draw the map, `geopy` to find locations, `bs4` to edit `html` file (to make 
 a button for navigation between the pages) and flask to run it as web-application.
+![ScreenShot](https://github.com/Tsapiv/Lab_3_23/blob/master/Task_2/examples/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(50).png)
+![ScreenShot](https://github.com/Tsapiv/Lab_3_23/blob/master/Task_2/examples/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(51).png)
+![ScreenShot](https://github.com/Tsapiv/Lab_3_23/blob/master/Task_2/examples/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(52).png)
+![ScreenShot](https://github.com/Tsapiv/Lab_3_23/blob/master/Task_2/examples/%D0%97%D0%BD%D1%96%D0%BC%D0%BE%D0%BA%20%D0%B5%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20(53).png)
 ### Contributing
 * Sometimes, there can occur some issues with `geopy` or `pythonanywhere`, just ignore it.
 * Don't do more than 15 requests in a row, because Twitter API has a limitations
